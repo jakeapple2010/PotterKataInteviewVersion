@@ -1,5 +1,3 @@
-using System;
-using System.Runtime.InteropServices;
 using NUnit.Framework;
 using Potter_Kata;
 
@@ -42,7 +40,7 @@ namespace Tests
 
             Assert.AreEqual(8m, result);
         }
-
+        
         [Test]
         public void Two_of_the_same_book_returns_16()
         {
@@ -54,7 +52,7 @@ namespace Tests
         }
 
         [Test]
-        public void Two_of_the_different_books_return_15_6()
+        public void Two_of_the_different_books_return_15_2()
         {
             var books = new int[] { 1, 2 };
 
