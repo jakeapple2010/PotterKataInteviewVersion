@@ -12,11 +12,6 @@ public class Cart
             return 0m;
         }
 
-        if (books.Distinct().Count() == 1)
-        {
-            return books.Length * 8m;
-        }
-
         decimal finalCost = 0m;
         int last = -1;
         var visited = new List<int>();

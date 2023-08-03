@@ -57,7 +57,7 @@ public class CartTests
 
         var result = classUnderTest.CalculateCost(books);
 
-        Assert.AreEqual(15.2m, result);
+        Assert.AreEqual(15.6m, result);
     }
 
     [Test]

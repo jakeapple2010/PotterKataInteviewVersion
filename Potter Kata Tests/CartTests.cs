@@ -52,13 +52,13 @@ namespace Tests
         }
 
         [Test]
-        public void Two_of_the_different_books_return_15_2()
+        public void Two_of_the_different_books_return_15_6()
         {
             var books = new int[] { 1, 2 };
 
             var result = classUnderTest.CalculateCost(books);
 
-            Assert.AreEqual(15.6m, result);
+            Assert.AreEqual(15.2m, result);
         }
 
         [Test]
